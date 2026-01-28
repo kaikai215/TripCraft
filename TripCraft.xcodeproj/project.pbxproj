@@ -6,12 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		018D2FA92F02589A0040B6A7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 018D2FA82F02589A0040B6A7 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		018D2F4C2F0214090040B6A7 /* TripCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripCraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		018D2FA82F02589A0040B6A7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		018D2F4E2F0214090040B6A7 /* TripCraft */ = {
+		018D2F652F0214300040B6A7 /* TripCraft */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = TripCraft;
 			sourceTree = "<group>";
@@ -32,7 +37,8 @@
 		018D2F432F0214090040B6A7 = {
 			isa = PBXGroup;
 			children = (
-				018D2F4E2F0214090040B6A7 /* TripCraft */,
+				018D2FA82F02589A0040B6A7 /* README.md */,
+				018D2F652F0214300040B6A7 /* TripCraft */,
 				018D2F4D2F0214090040B6A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +67,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				018D2F4E2F0214090040B6A7 /* TripCraft */,
+				018D2F652F0214300040B6A7 /* TripCraft */,
 			);
 			name = TripCraft;
 			packageProductDependencies = (
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				018D2FA92F02589A0040B6A7 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

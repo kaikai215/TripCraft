@@ -11,7 +11,7 @@ import SwiftUI
 struct TripCraftApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TripFlowRootView()
         }
     }
 }
